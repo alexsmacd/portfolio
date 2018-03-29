@@ -8,12 +8,13 @@ html {
 
 body {
 	word-wrap: normal;
-	font-family:"proxima-soft";
+	font-family:"proxima-soft"; /* Default font is set to Proxima Soft */
 	font-style:normal;
 	font-weight:300;
 	margin-bottom:64px;
 }
 
+/* Changes default background (dark) color */
 .bg-dark {
 	background-color:#0a4159!important;
 }
@@ -34,6 +35,7 @@ body {
     max-height:50px;
 }
 
+/* Changes default jumboton/featured content background color */
 .jumbotron {
 	background-color: #eaeaea;
 }
